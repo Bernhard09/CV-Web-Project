@@ -1,0 +1,133 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serrif;
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+}
+
+.barContainer{
+  display: flex;
+  color: white;
+  width: 100%;
+  height: 50px;
+  
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  padding: 15px;
+  width: 100%;
+  height: 50px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px;
+  border-color: #262626;
+  border-style: solid;
+  background-color: black;
+
+
+  vertical-align: top;
+  position: fixed;
+}
+
+.brand{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.3em;
+}
+
+.brand > img{
+  width: 30px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.firstname{
+  color: white;
+  font-weight: 400; 
+}
+
+.lastname{
+  color: #FFD700;
+  font-weight: 700;
+  padding-left: 2px;
+  
+}
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.navigation > li{
+  list-style-type: none;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.navigation > li > a{
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: text-decoration 0.60s;
+}
+
+.navigation > li > a:hover{
+  text-decoration: underline;
+  text-decoration-color: #FFD700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 32px;
+}
+
+
+.wrapper-2{
+  display: flex;
+  background-color: #111212;
+  color: white;
+  width: 100%;
+  height: 900px;
+  
+}
+
+.content-container{
+  display: flex;
+  height: 600px; 
+  width: 100%;  
+  justify-content: center; 
+  margin-top: 75px;
+}
+
+.title{
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: #FFD700;
+  font-size: 32px;
+  
+  text-underline-offset: 15px;
+  margin-bottom: 50px;
+}
+
+.passage{
+  width: 800px;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  color: white;
+  background-color: #0f0f0f;
+}
